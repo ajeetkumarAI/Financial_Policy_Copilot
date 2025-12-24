@@ -6,3 +6,4 @@ langchain-openai
 langchain-text-splitters
 chromadb
 pymupdf
+langchain-classic
