@@ -1,0 +1,15 @@
+
+chunking:
+  chunk_size: 1000
+  chunk_overlap: 100
+
+retriever:
+  type: mmr
+  k: 5
+
+vectorstore:
+  persist_directory: "./chroma_db"
+
+llm:
+  model: gpt-5-nano-2025-08-07
+  temperature: 0
