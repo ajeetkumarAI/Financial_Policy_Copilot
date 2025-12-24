@@ -38,10 +38,6 @@ def build_rag_chain(
             template="""
 You are a helpful assistant answering strictly from the uploaded Document.
 
-Rules:
-- Use ONLY the Document content
-- If the answer is not present, say "Not found in the document"
-
 Context:
 {context}
 
