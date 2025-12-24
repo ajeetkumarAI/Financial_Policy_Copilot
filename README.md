@@ -166,8 +166,71 @@ list_of_files = [
 - Deploy Streamlit app on **Azure Web App**.  
 ```
 
----
 
+
+## Clone Git Repo
 ```bash
-source venv/bin/activate
+git clone https://github.com/ajeetkumarAI/Financial-Policy-Assistant-ChatBot.git
+```
+
+## Virtual Env
+```bash
+python -m venv venv
+```
+##  How to activate virtual env
+```bash
+venv\Scripts\activate.bat
+```
+
+## Create Project Skelton
+```bash
+python templates.py
+```
+
+
+## Update requirements.txt
+
+## Install the dependency via requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+## Starts Updating the SRC code
+
+
+## Git Commands
+```bash
+git status
+```
+
+### Track changes 
+```bash
+git add .
+```
+
+### Commit the changes
+```bash
+git commit -m "Project Skelton Created"
+```
+
+### Push changes to Git
+```bash
+git push origin main
+```
+
+### Setup Git Profile
+```bash
+git config --global user.email "emailid"
+git config --global user.name "username"
+```
+
+### Push chnages to Git
+```bash
+git push origin main
+```
+
+
+### Starts Up Command
+```bash
+streamlit run app.py --server.port=8000 --server.address=0.0.0.0
 ```
