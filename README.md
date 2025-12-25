@@ -1,5 +1,3 @@
-
-```markdown
 # 📊 Financial Policy Assistant
 
 A GenAI-powered **Financial Policy Assistant** that helps auditors, compliance officers, and financial professionals quickly query complex financial policy documents.  
@@ -51,7 +49,7 @@ This project provides a **Streamlit-based chatbot** that:
 ## ⚙️ 4. Installation
 
 ### Prerequisites
-- Python 3.9+  
+- Python 3.12+  
 - OpenAI API key (set in `.env`)  
 
 ### Setup
@@ -195,7 +193,23 @@ python templates.py
 pip install -r requirements.txt
 ```
 
-## Starts Updating the SRC code
+## Starts Updating the SRC code asd Backened
+```bash
+│
+├── src/                    # Core Backend logic modules
+│   ├── __init__.py
+│   ├── embeddings.py       # OpenAI embedding functions
+│   ├── document_loaders.py # PDF/DOCX/CSV loaders
+│   ├── chunking.py         # Chunking strategies
+│   ├── vectorstore.py      # FAISS or Pinecone integration
+│   ├── rag_pipeline.py     # Orchestration logic (optional)
+│   └── llm_integration.py  # GPT-4 query orchestration
+```
+
+## Create Frontend Applications
+```bash
+app.py
+```
 
 
 ## Git Commands
